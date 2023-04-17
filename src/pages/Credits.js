@@ -11,6 +11,10 @@ import { transition1 } from "../transitions";
 import { CursorContext } from "../context/CursorContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBandcamp, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import BMK from "../img/logos/BMK_transparent.png";
+import MusikFonds from "../img/logos/MusikFonds_transparent.png";
+import NeuStartKultur from "../img/logos/NeuStartKultur_transparent_bw.png";
+import allLogos from "../img/logos/allLogos.png";
 const Credits = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
@@ -61,7 +65,7 @@ const Credits = () => {
               <br />
               Special thanks to TSOP and Jordi Colombi
               <br /> <br />
-              <div className="flex items-center">
+              <div className="flex items-center space-between">
                 <a
                   href="http://www.bandcamp.com"
                   target="_blank"
@@ -76,6 +80,16 @@ const Credits = () => {
                 >
                   <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
                 </a>
+                <div className="px-10 flex items-center space-x-4">
+                  <img src={allLogos} alt="Logo 2" width="250" height="250" />
+                  {/* <img
+                    src={NeuStartKultur}
+                    alt="Logo 3"
+                    width="60"
+                    height="60"
+                  />
+                  <img src={BMK} alt="Logo 1" width="150" height="150" /> */}
+                </div>
               </div>
               <br />
               Click on ENTER to dive into the vulnerability and crisis of our

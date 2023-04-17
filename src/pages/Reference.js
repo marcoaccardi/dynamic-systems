@@ -40,7 +40,7 @@ const Reference = () => {
             <p className="text-sm lg:text-base mb-6 text-gray-800">
               sea-ice data from Sea Ice Index, Version 3, Boulder, Colorado USA.
               National Snow and Ice Data Center by Fetterer, F., K. Knowles, W.
-              N. Meier, M. Savoie, and A. K. Windnagel (2017) can be accessed at
+              N. Meier, M. Savoie, and A. K. Windnagel (2017) can be accessed at{" "}
               <a
                 target="_blank"
                 className="underline"
