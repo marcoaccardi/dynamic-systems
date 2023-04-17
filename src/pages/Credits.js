@@ -9,7 +9,8 @@ import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 // import cursor context
 import { CursorContext } from "../context/CursorContext";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBandcamp, faInstagram } from "@fortawesome/free-brands-svg-icons";
 const Credits = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
@@ -42,20 +43,45 @@ const Credits = () => {
               climate change through experimental, electronic, ambient, and
               noise genres.
               <br /> <br />
-              Collaborators: <br />
+              Music Production and Programming: Three Amps <br />
               Scientific Data: Lukrecia Stulic <br />
-              Antarctica Photography: Camila Campos Antarctica <br />
-              Audio Recording: Corina Peter <br />
               Max/MSP guidance: Michael Begg <br />
               Mastering: Shun Nakamura <br />
-              Website, Visual, Max/MSP consulting: Marco Accardi | Anecoica
-              studio
+              Website, Visual, Max/MSP consulting: Marco Accardi |{" "}
+              <a
+                className="underline"
+                target="_blank"
+                href="https://www.anecoica.net/"
+              >
+                Anecoica studio
+              </a>{" "}
+              <br />
+              Antarctica Photography: Camila Campos Antarctica <br />
+              Antarctica Audio Recording: Corina Peter
               <br />
               Special thanks to TSOP and Jordi Colombi
-              <br /> <br /> <br /> <br />
+              <br /> <br />
+              <div className="flex items-center">
+                <a
+                  href="http://www.bandcamp.com"
+                  target="_blank"
+                  className="mr-4"
+                >
+                  <FontAwesomeIcon icon={faBandcamp} className="text-2xl" />
+                </a>
+                <a
+                  href="https://www.instagram.com/three_amps/"
+                  target="_blank"
+                  className="ml-4"
+                >
+                  <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
+                </a>
+              </div>
+              <br />
               Click on ENTER to dive into the vulnerability and crisis of our
               environment and human spirit.
             </p>
+
             <Link to={"/installation"} className="btn">
               Enter
             </Link>

@@ -38,24 +38,24 @@ const About = () => {
               Scientific research
             </h1>
             <p className="text-sm lg:text-base mb-6 text-gray-800">
-              Ice is a mirror. Ice on Earth is special because it mirrors back
-              most of the radiation that comes to it from the Sun. In a network
-              with atmosphere, ocean, and land, fine-tuned by physics, it keeps
-              the climate in a state that supports life. Ice on Earth is a
-              mirror of the destructive human-made climate change. At the time
-              of this writing, we can still make a difference. <br /> <br />
-              The most spectacular forms of ice on Earth can be found in
+              Part 1) Ice is a mirror. Ice on Earth is special because it
+              mirrors back most of the radiation that comes to it from the Sun.
+              In a network with atmosphere, ocean, and land, fine-tuned by
+              physics, it keeps the climate in a state that supports life. Ice
+              on Earth is a mirror of the destructive human-made climate change.
+              At the time of this writing, we can still make a difference.{" "}
+              <br /> <br />
+              Part 2) The most spectacular forms of ice on Earth can be found in
               Antarctica. A frozen ocean circling the continent extends for
               millions of square kilometres. Satellites measured the smallest
-              Antarctica sea-ice extent on record in February 2023 (Reference
-              1), a sharp turn in a long-term trend. The physics-based climate
-              models predict sea ice will eventually continue to decay in the
-              warming climate. The floating ice shelves are guarding the largest
-              water reservoir on Earth, the Antarctic ice sheet, from expelling
-              its content to the ocean. The reservoir content, if all melted
-              into the ocean, would increase the sea level by 60m. Ice shelves
-              in western Antarctica have been melting rapidly over the last two
-              decades.
+              Antarctic sea-ice extent on record in February 2023, a sharp turn
+              in a long-term trend. The physics-based climate models predict sea
+              ice will eventually continue to decay in the warming climate. The
+              floating ice shelves are guarding the largest water reservoir on
+              Earth, the Antarctic ice sheet, from expelling its content to the
+              ocean. The reservoir content, if all melted into the ocean, would
+              increase the sea level by 60m. Ice shelves in western Antarctica
+              have been melting rapidly over the last two decades.
               <br /> <br />
             </p>
             <Link to={"/scientificresearch2"} className="btn">

@@ -40,23 +40,48 @@ const About = () => {
             <p className="text-sm lg:text-base mb-6 text-gray-800">
               Dynamic systems is an interdisciplinary project that explores the
               relationship between art and science through the interpretation of
-              scientific data related to climate change. <br /> <br /> The
-              project's musical compositions, which incorporate elements of
+              scientific data related to climate change. <br /> <br />
+              The project's musical compositions, which incorporate elements of
               experimental, electronic, ambient, and noise genres, reflect on
-              the vulnerability and crisis of both the environment and the human
+              the magnificence and ruthlessness of nature, as well as the
+              vulnerability and crisis of both the environment and the human
               spirit. As creators of this project who grew up by the sea, we are
               particularly concerned about the impact of climate change on
               coastal regions and the challenges facing the world as a whole.
-              During our creative process, we have asked many questions, such as
-              the root causes of the climate crisis, the responsibility of
-              humanity as a whole, and the role of AI in addressing the issue.
-              <br /> <br />
-              Our data was collected from an expedition to Antarctica and
-              simulations using the global sea ice-ocean model FESOM, which shed
-              light on the current state of the polar regions and their changes
-              over the past 30 years. The data highlights the interconnectedness
-              between changes in polar regions and human activities' impact on
-              the overall climate system.
+              During our creative process, we have asked ourselves many
+              questions, such as the root causes of the climate crisis, whether
+              we can consider all of humanity equally responsible, and what role
+              AI plays in addressing the problem. We asked ourselves whether the
+              issue can be addressed beyond ideological polarization.
+              <br />
+              <br /> Our{" "}
+              <a
+                className={"underline"}
+                href="https://epic.awi.de/id/eprint/47332/"
+                target="_blank"
+              >
+                data
+              </a>{" "}
+              was collected from an{" "}
+              <a
+                className={"underline"}
+                href="https://follow-polarstern.awi.de/?lang=en#expeditions-menu"
+                target="_blank"
+              >
+                expedition to Antarctica
+              </a>{" "}
+              and simulations using the global sea ice-ocean model{" "}
+              <a
+                className={"underline"}
+                href="https://fesom.de/"
+                target="_blank"
+              >
+                FESOM
+              </a>{" "}
+              , which shed light on the current state of the polar regions and
+              their changes over the past 30 years. They show how changes in
+              polar regions affect the overall climate system and how they are
+              connected to human activities.
             </p>
             <Link to={"/scientificresearch"} className="btn">
               next

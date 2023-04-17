@@ -38,19 +38,19 @@ const ScientificResearchPart2 = () => {
               Scientific research
             </h1>
             <p className="text-sm lg:text-base mb-6 text-gray-800">
-              The largest Antarctica’s ice shelf by volume, Filchner-Ronne Ice
-              Shelf, is part of another interplay crucial for the world’s
-              climate. Here in the southern Weddell Sea, the wild cold winds
-              from the continent persistently push sea ice away from the
-              ice-shelf edge. Newly opened water surfaces, polynyas, cool
+              Part 3) The second largest ice shelf in Antarctica, the
+              Filchner-Ronne Ice Shelf, is part of another interplay crucial for
+              the world’s climate. Here in the southern Weddell Sea, the wild
+              cold winds from the continent persistently push sea ice away from
+              the ice-shelf edge. Newly opened water surfaces, polynyas, cool
               rapidly and freeze. The sea salt is left out of the icy crystals
               in the ocean, making it denser. In fact, the water formed here is
-              among the densest on Earth (Reference 2). It fuels global ocean
-              circulation. It also carries heat below the ice shelf and melts
-              it. We are able to represent and dive into the peculiarities of
-              this system using a sea ice-ocean model (Reference 3). If we keep
-              warming the climate, we will disturb these marvellous dynamics.
-              Ice shelf melt will increase drastically.
+              among the densest on Earth. It fuels global ocean circulation. It
+              also carries heat below the ice shelf and melts it. We are able to
+              represent and dive into the peculiarities of this system using a
+              sea ice-ocean model. If we keep warming the climate, we will
+              disturb these marvellous dynamics. Ice shelf melt will increase
+              drastically.
               <br /> <br />
             </p>
             <Link to={"/reference"} className="btn">
