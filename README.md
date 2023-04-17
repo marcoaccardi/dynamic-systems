@@ -10,9 +10,6 @@ Dynamic Systems is an interdisciplinary project that explores the relationship b
 
 The data was collected from an expedition to Antarctica and simulations using the global sea ice-ocean model FESOM, which shed light on the current state of the polar regions and their changes over the past 30 years. They show how changes in polar regions affect the overall climate system and how they are connected to human activities.
 
-## Project Financing
-This project was financed by Music Fonds, BMK, and NeuStart Kultur.
-
 ## Technologies Used
 - React
 - Tailwind
@@ -27,3 +24,6 @@ To start the app, run the following commands in your terminal:
  `npm start`
 
 The app will run on localhost:3000.
+
+
+@credits: pmndrs community https://github.com/pmndrs
