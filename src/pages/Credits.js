@@ -46,6 +46,15 @@ const Credits = () => {
               Experience an immersive audio-visual installation exploring
               climate change through experimental, electronic, ambient, and
               noise genres.
+              <br />
+              Listen to Dynamic Systems EP on Bandcamp here
+              <a
+                href="http://www.bandcamp.com"
+                target="_blank"
+                className="pl-2 mr-4"
+              >
+                <FontAwesomeIcon icon={faBandcamp} className="text-2xl" />
+              </a>
               <br /> <br />
               Music Production and Programming: Three Amps <br />
               Scientific Data: Lukrecia Štulić <br />
@@ -66,32 +75,32 @@ const Credits = () => {
               <br />
               Special thanks to TSOP and Jordi Colombi
               <br /> <br />
-              <div className="flex items-center space-between">
-                <a
+              {/* <div className="flex items-center space-between"> */}
+              {/* <a
                   href="http://www.bandcamp.com"
                   target="_blank"
                   className="mr-4"
                 >
                   <FontAwesomeIcon icon={faBandcamp} className="text-2xl" />
-                </a>
+                </a> */}
+              <div className=" flex items-center space-x-4">
                 <a
                   href="https://www.instagram.com/three_amps/"
                   target="_blank"
-                  className="ml-4"
+                  className=""
                 >
                   <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
                 </a>
-                <div className="px-10 flex items-center space-x-4">
-                  <img src={allLogos} alt="Logo 2" width="250" height="250" />
-                  {/* <img
+                <img src={allLogos} alt="Logo 2" width="250" height="250" />
+                {/* <img
                     src={NeuStartKultur}
                     alt="Logo 3"
                     width="60"
                     height="60"
                   />
                   <img src={BMK} alt="Logo 1" width="150" height="150" /> */}
-                </div>
               </div>
+              {/* </div> */}
               <br />
               Click on ENTER to dive into the vulnerability and crisis of our
               environment and human spirit.
