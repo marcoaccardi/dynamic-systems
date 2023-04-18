@@ -48,8 +48,9 @@ const Credits = () => {
               noise genres.
               <br /> <br />
               Music Production and Programming: Three Amps <br />
-              Scientific Data: Lukrecia Stulic <br />
-              Max/MSP guidance: Michael Begg <br />
+              Scientific Data: Lukrecia Štulić <br />
+              Max/MSP guidance: Michael Begg | Omnempathy
+              <br />
               Mastering: Shun Nakamura <br />
               Website, Visual, Max/MSP consulting: Marco Accardi |{" "}
               <a
@@ -60,7 +61,7 @@ const Credits = () => {
                 Anecoica studio
               </a>{" "}
               <br />
-              Antarctica Photography: Camila Campos Antarctica <br />
+              Antarctica Photography: Camila Campos <br />
               Antarctica Audio Recording: Corina Peter
               <br />
               Special thanks to TSOP and Jordi Colombi
