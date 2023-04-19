@@ -35,14 +35,14 @@ const ScientificResearchPart2 = () => {
             className="m-10 flex-1 pt-8 pb-8 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start"
           >
             <h1 className="mt-20 text-2xl lg:text-4xl font-bold mb-4 text-gray-800">
-              Scientific research
+              Scientific background
             </h1>
             <p className="text-sm lg:text-base mb-6 text-gray-800">
-              Part 3) The second largest ice shelf in Antarctica, the
-              Filchner-Ronne Ice Shelf, is part of another interplay crucial for
-              the world’s climate. Here in the southern Weddell Sea, the wild
-              cold winds from the continent persistently push sea ice away from
-              the ice-shelf edge. Newly opened water surfaces, polynyas, cool
+              The second largest ice shelf in Antarctica, the Filchner-Ronne Ice
+              Shelf, is part of another interplay crucial for the world’s
+              climate. Here in the southern Weddell Sea, the wild cold winds
+              from the continent persistently push sea ice away from the
+              ice-shelf edge. Newly opened water surfaces, polynyas, cool
               rapidly and freeze. The sea salt is left out of the icy crystals
               in the ocean, making it denser. In fact, the water formed here is
               among the densest on Earth. It fuels global ocean circulation. It

@@ -38,30 +38,6 @@ const Reference = () => {
               Resources
             </h1>
             <p className="text-sm lg:text-base mb-6 text-gray-800">
-              sea-ice data from Sea Ice Index, Version 3, Boulder, Colorado USA.
-              National Snow and Ice Data Center by Fetterer, F., K. Knowles, W.
-              N. Meier, M. Savoie, and A. K. Windnagel (2017) can be accessed at{" "}
-              <a
-                target="_blank"
-                className="underline"
-                href="https://nsidc.org/data/g02135/versions/3"
-              >
-                this link
-              </a>{" "}
-              <br />
-              <br />
-              ocean measurements from the paper FRIS Revisited in 2018: On the
-              Circulation and Water Masses at the Filchner and Ronne Ice Shelves
-              in the Southern Weddell Sea by Janout et al., 2021 can be found
-              via{" "}
-              <a
-                target="_blank"
-                className="underline"
-                href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JC017269"
-              >
-                this link
-              </a>
-              <br /> <br />
               Model data FESOM sea-ice production for the southern Weddell Sea,
               2002-2017 by Štulić et al., 2023 can be accessed at{" "}
               <a
@@ -73,45 +49,12 @@ const Reference = () => {
               </a>
               <br /> <br />
               Additional information: <br />
-              Part2) IPCC 2021: fact sheet polar regions
-              <a
-                className="underline"
-                target="_blank"
-                href="https://www.ipcc.ch/report/ar6/wg1/downloads/factsheets/IPCC_AR6_WGI_Regional_Fact_Sheet_Polar_regions.pdf"
-              >
-                https://www.ipcc.ch/report/ar6/wg1/downloads/factsheets/IPCC_AR6_WGI_Regional_Fact_Sheet_Polar_regions.pdf
-              </a>{" "}
-              <br />
-              <a
-                className="underline"
-                target="_blank"
-                href="https://earthobservatory.nasa.gov/world-of-change/sea-ice-antarctic"
-              >
-                https://earthobservatory.nasa.gov/world-of-change/sea-ice-antarctic
-              </a>
-              <br />
-              Part 3)
-              <a
-                className="underline"
-                target="_blank"
-                href="https://doi.org/10.1029/2021JC017269"
-              >
-                https://doi.org/10.1029/2021JC017269
-              </a>
-              <a
-                className="underline"
-                target="_blank"
-                href="https://doi.org/10.1038/nature11064"
-              >
-                https://doi.org/10.1038/nature11064
-              </a>
-              <br />
               model: FESOM{" "}
               <a className="underline" target="_blank" href="https://fesom.de/">
                 https://fesom.de/
               </a>
               <br />
-              polar icebreaker Polarstern:
+              polar icebreaker Polarstern:{" "}
               <a
                 className="underline"
                 target="_blank"
@@ -128,6 +71,25 @@ const Reference = () => {
               >
                 https://www.awi.de/en/
               </a>
+              <br />
+              IPCC report 2021:{" "}
+              <a
+                className="underline"
+                target="_blank"
+                href="https://www.ipcc.ch/report/ar6/wg1/downloads/factsheets/IPCC_AR6_WGI_Regional_Fact_Sheet_Polar_regions.pdf"
+              >
+                https://www.ipcc.ch/report/ar6/wg1/downloads/factsheets/IPCC_AR6_WGI_Regional_Fact_Sheet_Polar_regions.pdf
+              </a>
+              <br />
+              The Earth observatory, NASA:{" "}
+              <a
+                className="underline"
+                target="_blank"
+                href="https://earthobservatory.nasa.gov/world-of-change/sea-ice-antarctic"
+              >
+                https://earthobservatory.nasa.gov/world-of-change/sea-ice-antarctic
+              </a>
+              <br />
             </p>
             <Link to={"/credits"} className="btn">
               next

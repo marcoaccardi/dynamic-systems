@@ -57,7 +57,7 @@ const Credits = () => {
               </a>
               <br /> <br />
               Music Production and Programming: Three Amps <br />
-              Scientific Data: Lukrecia Štulić <br />
+              Scientific Background: Lukrecia Štulić <br />
               Max/MSP guidance: Michael Begg | Omnempathy
               <br />
               Mastering: Shun Nakamura <br />

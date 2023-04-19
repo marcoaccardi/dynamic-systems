@@ -35,17 +35,16 @@ const About = () => {
             className="m-10 flex-1 pt-8 pb-8 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start"
           >
             <h1 className="mt-20 text-2xl lg:text-4xl font-bold mb-4 text-gray-800">
-              Scientific research
+              Scientific background
             </h1>
             <p className="text-sm lg:text-base mb-6 text-gray-800">
-              Part 1) Ice is a mirror. Ice on Earth is special because it
-              mirrors back most of the radiation that comes to it from the Sun.
-              In a network with atmosphere, ocean, and land, fine-tuned by
-              physics, it keeps the climate in a state that supports life. Ice
-              on Earth is a mirror of the destructive human-made climate change.
-              At the time of this writing, we can still make a difference.{" "}
-              <br /> <br />
-              Part 2) The most spectacular forms of ice on Earth can be found in
+              Ice is a mirror. Ice on Earth is special because it mirrors back
+              most of the radiation that comes to it from the Sun. In a network
+              with atmosphere, ocean, and land, fine-tuned by physics, it keeps
+              the climate in a state that supports life. Ice on Earth is a
+              mirror of the destructive human-made climate change. At the time
+              of this writing, we can still make a difference. <br /> <br />
+              The most spectacular forms of ice on Earth can be found in
               Antarctica. A frozen ocean circling the continent extends for
               millions of square kilometres. Satellites measured the smallest
               Antarctic sea-ice extent on record in February 2023, a sharp turn

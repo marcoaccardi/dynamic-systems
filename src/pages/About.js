@@ -54,7 +54,7 @@ const About = () => {
               AI plays in addressing the problem. We asked ourselves whether the
               issue can be addressed beyond ideological polarization.
               <br />
-              <br /> Our{" "}
+              <br /> The{" "}
               <a
                 className={"underline"}
                 href="https://epic.awi.de/id/eprint/47332/"
@@ -62,15 +62,8 @@ const About = () => {
               >
                 data
               </a>{" "}
-              was collected from an{" "}
-              <a
-                className={"underline"}
-                href="https://follow-polarstern.awi.de/?lang=en#expeditions-menu"
-                target="_blank"
-              >
-                expedition to Antarctica
-              </a>{" "}
-              and simulations using the global sea ice-ocean model{" "}
+              was collected from simulations using the global sea ice-ocean
+              model{" "}
               <a
                 className={"underline"}
                 href="https://fesom.de/"

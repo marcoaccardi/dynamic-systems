@@ -37,8 +37,8 @@ const Home = () => {
               dynamic <br /> systems.
             </h1>
             <p className="font-thin text-[26px] lg:text-[36px] mb-4 lg:mb-12 leading-8 lg:leading-10 text-gray-800">
-              an artistic and scientific research <br /> based on the <br />
-              global sea ice-ocean data by FESOM
+              artistic and scientific collaboration <br /> based on <br />
+              interpretation of climate data.
             </p>
             <Link to={"/about"} className="btn">
               explore

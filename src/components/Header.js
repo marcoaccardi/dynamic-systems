@@ -36,7 +36,7 @@ const Header = () => {
             to={"/scientificresearch"}
             className="text-primary hover:text-primary transition"
           >
-            Scientific research
+            Scientific background
           </Link>
           <Link
             to={"/credits"}
