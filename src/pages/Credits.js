@@ -49,7 +49,7 @@ const Credits = () => {
               <br />
               Listen to Dynamic Systems EP on Bandcamp here
               <a
-                href="http://www.bandcamp.com"
+                href="https://threeamps.bandcamp.com/album/dynamic-systems"
                 target="_blank"
                 className="pl-2 mr-4"
               >
